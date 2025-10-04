@@ -3,37 +3,23 @@ Problem 2: Temperature Converter
 Convert between Celsius and Fahrenheit temperatures.
 """
 
-def celsius_to_fahrenheit(celsius):
-    """
-    Convert Celsius to Fahrenheit.
-    Formula: F = (C × 9/5) + 32
-
-    Args:
-        celsius (float): Temperature in Celsius
-
-    Returns:
-        float: Temperature in Fahrenheit
-    """
-    # TODO: Implement this function
-    pass
+def celsius_to_fahrenheit(celsius): 
+    fahrenheit = (celsius * 9/5) + 32
+    return fahrenheit
 
 
-def fahrenheit_to_celsius(fahrenheit):
-    """
-    Convert Fahrenheit to Celsius.
-    Formula: C = (F - 32) × 5/9
+print(celsius_to_fahrenheit(0))
 
-    Args:
-        fahrenheit (float): Temperature in Fahrenheit
+#def fahrenheit_to_celsius(fahrenheit):
 
-    Returns:
-        float: Temperature in Celsius
-    """
-    # TODO: Implement this function
-    pass
+def fahrenheit_to_celsius(fahrenheit): 
+    celsius = (fahrenheit - 32) *(5/9)
+    return celsius
+
+print(fahrenheit_to_celsius(100))
 
 
-def temperature_converter():
+#def temperature_converter():
     """
     Interactive temperature converter.
     Ask user for:
