@@ -37,7 +37,7 @@ def find_longest_word(filename):
     with open(filename, 'r') as f:
         text = f.read()
 
-    #hint:
+    #hint used:
     translator = str.maketrans('', '', string.punctuation)
     text = text.translate(translator)
 
