@@ -2,7 +2,7 @@
 Problem 4: File Word Counter
 Process text files and perform various analyses.
 """
-import string 
+import string
 
 def create_sample_file(filename="sample.txt"):
     content = """Python is a powerful programming language.

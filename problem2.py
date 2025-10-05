@@ -26,7 +26,7 @@ def fahrenheit_to_celsius(fahrenheit):
 
 def temperature_converter():
     """
-    Interactive temperature converter.
+    Interactive temperature converter
     Ask user for temperature and unit, then display conversion.
     """
     temp_input = input("Enter temperature value: ").strip()

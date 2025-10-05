@@ -4,7 +4,7 @@ Analyze a list of numbers provided by the user.
 """
 
 def get_numbers_from_user():
-   
+   #get numbers
     numbers = []
 
     while True:
