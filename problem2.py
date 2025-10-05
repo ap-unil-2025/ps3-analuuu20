@@ -7,16 +7,11 @@ def celsius_to_fahrenheit(celsius):
     fahrenheit = (celsius * 9/5) + 32
     return fahrenheit
 
-
-print(celsius_to_fahrenheit(0))
-
 #def fahrenheit_to_celsius(fahrenheit):
 
 def fahrenheit_to_celsius(fahrenheit): 
     celsius = (fahrenheit - 32) *(5/9)
     return celsius
-
-print(fahrenheit_to_celsius(100))
 
 #temperature_converter():
 
@@ -37,12 +32,11 @@ def temperature_converter():
         print(f"{temp_value:.2f}°F is {converted:.2f}°C")
     else:
         print("Invalid unit. Please enter 'C' or 'F'.")
+
 temperature_converter()
 
 print("Temperature Converter")
 print("-" * 30)
-
-    
 
 # Test cases (DO NOT MODIFY)
 if __name__ == "__main__":

@@ -21,12 +21,10 @@ def count_words(filename):
     words = text.split()
     return len(words)
 
-
 def count_lines(filename):
     with open(filename, 'r') as f:
         lines = f.readlines()
     return len(lines)
-    
 
 def count_characters(filename, include_spaces=True):
     with open(filename, 'r') as f:
@@ -34,7 +32,6 @@ def count_characters(filename, include_spaces=True):
     if not include_spaces:
         text = text.replace(' ', '')
     return len(text)
-    
 
 def find_longest_word(filename):
     with open(filename, 'r') as f:
@@ -51,23 +48,19 @@ def find_longest_word(filename):
 
 
 def word_frequency(filename):
-    
     frequency = {}
     with open(filename, 'r') as f:
         text = f.read()
-    
     translator = str.maketrans('', '', string.punctuation)
     text = text.translate(translator).lower()
     words = text.split()
 
     for word in words:
         frequency[word] = frequency.get(word, 0) + 1
-    
     return frequency
 
 
 def analyze_file(filename):
-   
     print(f"\nAnalyzing: {filename}")
     print("-" * 40)
 

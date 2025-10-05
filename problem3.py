@@ -19,7 +19,6 @@ def get_numbers_from_user():
             print("Invalid input. Please enter a valid number.")
 
     return numbers
-numbers = get_numbers_from_user()
 
 def analyze_numbers(numbers):
    
