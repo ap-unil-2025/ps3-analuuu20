@@ -21,7 +21,7 @@ def get_numbers_from_user():
     return numbers
 
 def analyze_numbers(numbers):
-   
+    # analize numbers
     if not numbers:
         return None
 
@@ -47,7 +47,7 @@ def analyze_numbers(numbers):
 
 
 def display_analysis(analysis):
-    
+    #display
     #if there is no dictionary yet
     if not analysis:
         print("No numbers entered to analyze.")
