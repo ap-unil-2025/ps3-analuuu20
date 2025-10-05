@@ -1,0 +1,12 @@
+1af7655 problem 4 solved
+1a55fa6 problem 3 solved
+e6a7b57 problem 2 solved
+7acbbe1 correcting autograding
+9ff0bc3 cleaning code
+e453212 problem 4 solved
+7022973 problem3 solved
+9f2a15c git commit -m "problem 2 solved"
+bfbfe8b adding first two functions
+cb32ada add my name and date
+7bcb689 Add GitHub Classroom autograding configuration
+2dc2daa Initial commit
