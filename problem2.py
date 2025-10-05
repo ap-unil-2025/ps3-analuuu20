@@ -39,8 +39,8 @@ def temperature_converter():
         print("Invalid unit. Please enter 'C' or 'F'.")
 temperature_converter()
 
-    print("Temperature Converter")
-    print("-" * 30)
+print("Temperature Converter")
+print("-" * 30)
 
     
 
